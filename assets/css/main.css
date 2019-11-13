@@ -60,6 +60,25 @@ mark {
 	color: inherit;
 }
 
+.angel{
+	width: 9%;
+	
+}
+.angellist{
+	margin-left: -65%;
+}
+.angel:hover{
+	color: #3eb08f;
+}
+
+.linkedin{
+	width: 8%;
+}
+
+.icons2{
+	display: flex;
+}
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -120,6 +139,7 @@ input, select, textarea {
 			color: #49bf9d !important;
 			text-decoration: none;
 		}
+
 
 	strong, b {
 		color: #787878;
@@ -3219,3 +3239,4 @@ input, select, textarea {
 			}
 
 	}
+
