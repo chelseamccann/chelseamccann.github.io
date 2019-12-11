@@ -61,7 +61,7 @@ mark {
 }
 
 .angel{
-	width: 9%;
+    height: 4%;
 	
 }
 .angellist{
@@ -72,7 +72,8 @@ mark {
 }
 
 .linkedin{
-	width: 8%;
+	height: 3.8%;
+    padding-top: 9%;
 }
 
 .icons2{
