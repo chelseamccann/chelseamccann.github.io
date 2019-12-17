@@ -60,6 +60,24 @@ mark {
 	color: inherit;
 }
 
+.contact{
+	display: flex;
+	justify-content: space-between;
+}
+
+#three h2{
+	margin: 0;
+}
+
+#three p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.inner{
+	height: 5%;
+}
+
 .angel{
     height: 5%;
 	
@@ -68,13 +86,18 @@ mark {
 	margin-left: -65%;
 }
 .angel:hover{
-	color: #3eb08f;
+	/* color: #3eb08f; */
+	opacity: .5;
 }
 
 .linkedin{
     height: 4.6%;
     padding-top: 10%;
     filter: invert(55%);
+}
+
+.linkedin:hover{
+	opacity: .5;
 }
 
 .icons2{
@@ -138,7 +161,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			/* color: #49bf9d !important; */
 			text-decoration: none;
 		}
 
@@ -1793,7 +1816,7 @@ input, select, textarea {
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		/* font-size: 1.25em; */
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
@@ -3245,4 +3268,12 @@ input, select, textarea {
 .inner{
 	margin-top: 10%;
     margin-left: 43%;
+}
+
+.icon{
+	color: #a2a2a2;
+}
+
+.icon:hover{
+	opacity: .5;
 }
