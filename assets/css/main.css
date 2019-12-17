@@ -60,9 +60,26 @@ mark {
 	color: inherit;
 }
 
+.major h2{
+	text-align: center;
+}
+
+#one p {
+	text-align: center;
+}
+
+.actions{
+	display: flex;
+    justify-content: center;
+}
+
 .contact{
 	display: flex;
 	justify-content: space-between;
+}
+
+#attainable{
+	height: 197.72px;
 }
 
 #three h2{
